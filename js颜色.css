@@ -1,0 +1,33 @@
+    .code-editor {
+      width: 600px;
+      border: 1px solid #e0e0e0;
+      border-radius: 4px;
+      box-shadow: 0 2px 4px rgba(0,0,0,0.05);
+      font-family: "SF Mono", "Consolas", "Monaco", monospace;
+      font-size: 14px;
+    }
+
+    .editor-header {
+      background: #f7f7f7;
+      padding: 8px 16px;
+      border-bottom: 1px solid #e0e0e0;
+      color: #666;
+      font-size: 13px;
+    }
+
+    .editor-content {
+      padding: 16px;
+      background: #fff;
+      line-height: 1.6;
+      white-space: pre;
+    }
+
+    .keyword { color: #e53935; } /* function, return 等关键字（红色） */
+    .function-name { color: #795548; } /* Video 函数名（棕色） */
+    .variable { color: #1565c0; } /* video 变量（蓝色） */
+    .jsx-tag { color: #00796b; } /* div, a, h3 等标签（深绿色） */
+    .jsx-component { color: #7e57c2; } /* Thumbnail, LikeButton 组件（紫色） */
+    .jsx-attribute { color: #ef6c00; } /* href 等属性（橙色） */
+    .punctuation { color: #212121; } /* 括号、分号等（深灰色） */
+    
+    
